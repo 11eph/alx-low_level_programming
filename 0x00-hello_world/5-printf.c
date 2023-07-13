@@ -3,11 +3,11 @@
 /**
 * main - Entry point
 * Description:This is a program that prints a phrase
-* Return: Always 0 (Success)
+* Return: Always 0 (success)
 */
 
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
