@@ -2,22 +2,16 @@
 
 /**
 * main - Entry point
-* Description: This is a program that prints various size of commputer.
+* Description:This prints a phrase of various computer size
 * Return: Always 0 (success)
 */
 
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float f;
-
-printf("Size of a char %lu byte(s)\n", (unsigned long)sizeof(a));
-printf("Size of a int %lu byte(s)\n", (unsigned long)sizeof(b));
-printf("size of a long int %lu byte(s)\n", (unsigned long)sizeof(c));
-printf("Size of a long long int %lu bytes(s)\n", (unsigned long)sizeof(d));
-printf("size of a float %lu bytes(s)\n", (unsigned long)sizeof(f));
-return (0);
+	printf("size of a char: %lu byte(s)\n", sizeof(char));
+	printf("size of an int: %lu byte(s)\n", sizeof(int));
+	printf("size of a long int: %lu byte(s)\n", sizeof(long int));
+	printf("size of a long long int: %lu byte(s)\n", sizeof(long long int));
+	printf("size of a float: %lu byte(s)\n", sizeof(float));
+	return (0);
 }
