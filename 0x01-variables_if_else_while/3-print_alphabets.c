@@ -2,8 +2,8 @@
 
 /**
 * main - Entry point
-* Description: This program that prints the alphabet in lowercase.
-* Return: Alway z (success)
+* Description: This is a program that prints the alphabet in lowercase.
+* Return: Always 0 (success)
 */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	c = 'a';
 	d = 'A';
 	while
-		(c <=  'z') {
+		(c <= 'z') {
 			putchar(c);
 			c++;
 		}
@@ -23,7 +23,6 @@ int main(void)
 		(d <= 'z') {
 			putchar (d);
 			d++;
-
 		}
 	putchar('\n');
 	return (0);
