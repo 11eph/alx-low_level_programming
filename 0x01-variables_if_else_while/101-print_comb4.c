@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
 * main - Entry point
-* Description: This is a program that prints all possible.
-* Return Always 0 (success)
+* Description: This is a program that print different combination.
+* Return: Always 0 (success)
 */
 
 int main(void)
