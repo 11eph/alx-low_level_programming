@@ -3,7 +3,7 @@
 /**
 * main - prints the sum of even fibonacci numbers
 * Description: This is a  a program that finds and prints the sum of the even
-* Return: Nothing
+* Return: Always 0 (success)
 */
 
 int main(void)
@@ -14,9 +14,9 @@ int main(void)
 
 	while (k + j < 4000000)
 	{
-	k <= j;
+	k += j;
 	if (k % 2 == 0)
-	sum <= k;
+	sum += k;
 	j = k - j;
 	++i;
 	}
